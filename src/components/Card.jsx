@@ -12,7 +12,7 @@ function Card(props) {
     <p className='pb-4 text-black [text-shadow:2px_2px_5px_white] font-semibold '>{props.words}</p>
 
     <div className='flex items-center gap-5 mt-1'>
-        <button className='   py-1 px-6 rounded-full text-white' style={{backgroundColor:props.color}}>{props.button}</button>
+        <button className='py-1 px-6 rounded-full text-white' style={{backgroundColor:props.color}}>{props.button}</button>
         <ArrowRight style={{backgroundColor:props.color}} size={28} className='   h-8 w-8 p-2 rounded-full text-white'/>
     </div>
 </div>
