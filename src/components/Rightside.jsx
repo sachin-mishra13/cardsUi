@@ -11,7 +11,7 @@ console.log(props.user);
 
 {props.user.map((elem,idx)=>{
     return (
-    <Card key={idx} id={idx} number={elem.number} words={elem.words} button={elem.button} color={elem.color}/>
+    <Card key={idx} id={idx} number={elem.number} words={elem.words} button={elem.button} color={elem.color} img={elem.img}/>
 );
 })}
     </div>
